@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Planos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Servicios de enfermería profesional: cuidado personalizado, atención a domicilio y experiencia de calidad para la salud y el bienestar de las personas." />
+    <meta name="keywords" content="enfermería profesional, cuidado de salud, atención a domicilio, servicios de enfermería, bienestar, salud personalizada" />
+    <meta name="author" content="Nombre del autor o empresa" />
+   
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.viewer-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+
+.viewer {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    touch-action: pinch-zoom;
+}
+
+.plan-image {
+    width: 100%;
+    height: auto;
+    min-width: 15360px; /* Resolución de la imagen */
+    min-height: 8640px;
+    display: block;
+    transform-origin: center;
+}
+
+    </style>
+    <div class="viewer-container">
+        <div class="viewer">
+            <img src="planos/plano-auditorio-cortes.png" alt="Plano de alta resolución" class="plan-image">
+        </div>
+    </div>
+</body>
+</html>
